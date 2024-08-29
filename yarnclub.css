@@ -1,6 +1,6 @@
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/Heroimage.png");
-    height: 650px;
+    background-image: url("./Images/Heroimage.png");
+    height: 35vi;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
@@ -10,7 +10,13 @@
     color: rgb(5, 30, 51);
     position: absolute;
     text-align: center;
-    top: 130px;
+    top: 1vi;
     width: 100%;
-    font-size: 7rem;
+    font-size: 10vw;
+}
+
+.BHS-logo{
+    position: absolute;
+    height: 10vi;
+    border-radius: 2px;
 }
