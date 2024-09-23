@@ -1,5 +1,5 @@
 .hero-image{
-    background-image: url("./Images/Heroimage.png");
+    background-image: url("./Images/Hero_image.jpg");
     height: 35vi;
     background-position: center;
     background-repeat:no-repeat;
@@ -15,8 +15,18 @@
     font-size: 10vw;
 }
 
+.sub-text{
+    color: rgb(5, 30, 51);
+    position: absolute;
+    text-align: center;
+    top: 16.5vi;
+    width: 100%;
+    font-size: 3vw;
+}
+
 .BHS-logo{
     position: absolute;
     height: 10vi;
     border-radius: 2px;
+    border: 5px solid rgb(5, 30, 51);;
 }
