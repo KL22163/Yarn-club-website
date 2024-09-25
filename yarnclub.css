@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Public sans';
+}
+
 .hero-image{
     background-image: url("./Images/Hero_image.jpg");
     height: 35vi;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
+    border: 0.75vi solid rgb(5, 30, 51);
 }
 
 .hero-text{
@@ -16,7 +23,7 @@
 }
 
 .sub-text{
-    color: rgb(5, 30, 51);
+    color: rgb(0, 56, 78);
     position: absolute;
     text-align: center;
     top: 16.5vi;
@@ -27,6 +34,16 @@
 .BHS-logo{
     position: absolute;
     height: 10vi;
-    border-radius: 2px;
-    border: 5px solid rgb(5, 30, 51);;
+    border-radius: 5px;
+    border: 0.25vi solid rgb(5, 30, 51);
+}
+
+.date-text{
+    position: absolute;
+    text-align: right;
+    color: rgb(0, 56, 78);
+    font-weight: bold;
+    top: 25vi;
+    left: 59vi;
+    font-size: 2vw;
 }
