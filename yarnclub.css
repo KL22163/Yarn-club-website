@@ -10,7 +10,6 @@ body{
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border: 0.75vi solid rgb(5, 30, 51);
 }
 
 .hero-text{
@@ -23,7 +22,7 @@ body{
 }
 
 .sub-text{
-    color: rgb(0, 56, 78);
+    color: rgb(5, 30, 51);
     position: absolute;
     text-align: center;
     top: 16.5vi;
@@ -43,7 +42,23 @@ body{
     text-align: right;
     color: rgb(0, 56, 78);
     font-weight: bold;
-    top: 25vi;
-    left: 59vi;
-    font-size: 2vw;
+    top: 27.5vi;
+    left: 65vi;
+    font-size: 1.75vw;
+}
+
+.description{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 1.5vw;
+    color: rgb(0, 56, 78);
+    background-color: rgb(230, 255, 250);
+}
+
+span{
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(5, 30, 51);
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
