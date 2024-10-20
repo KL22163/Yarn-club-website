@@ -2,18 +2,17 @@
 
 body{
     font-family: 'Public sans';
+    background-color: rgb(230, 255, 250);
 }
 
 .hero-image{
-    background-image: url("./Images/Hero_image.jpg");
+    background-image: linear-gradient(rgba(0, 58, 44, 0.5), rgba(255, 255, 255, 0.2)), url("./Images/Hero_image.jpg");
     position: relative;
     height: 35vi;
     width: 100%;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
-    border: 0.25vi solid rgb(5, 30, 51);
-    background-color: rgb(240, 248, 255);
 }
 
 .hero-text{
@@ -35,14 +34,12 @@ body{
 }
 
 .header{
-    background-color: rgb(0,78,66);
+    background-color: rgb(0,58,44);
 }
 
 .BHS-logo{
     position: relative;
-    height: 10vi;
-    border-radius: 5px;
-    border: 0.25vi solid rgb(5, 30, 51);
+    height: 7vi;
 }
 
 .date-text{
@@ -50,7 +47,7 @@ body{
     text-align: right;
     color: rgb(0, 56, 78);
     font-weight: bold;
-    top: 27.5vi;
+    top: 25vi;
     left: 65vi;
     font-size: 1.75vw;
 }
@@ -65,9 +62,6 @@ span{
     font-size: 1.8vw;
     font-weight: bold;
     color: rgb(5, 30, 51);
-    border-bottom: 0.25vi solid rgb(5, 30, 51);
-    border-bottom-style: wavy;
-
 }
 
 .text-description{
