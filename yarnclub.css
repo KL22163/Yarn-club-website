@@ -6,7 +6,7 @@ body{
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 58, 44, 0.5), rgba(255, 255, 255, 0.2)), url("./Images/Hero_image.jpg");
+    background-image: linear-gradient(rgba(10, 68, 55, 0.25), rgba(255, 255, 255, 0.2)), url("./Images/Hero_image.jpg");
     position: relative;
     height: 35vi;
     width: 100%;
@@ -67,4 +67,23 @@ span{
 .text-description{
     margin-left: 7vw;
     margin-right: 7vw;
+}
+
+.extra-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+}
+
+.triangle-1{
+    width: 0;
+    height: 0;
+    position: relative;
+    margin: 0;
+    border-left: 35vi solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 100px solid #555;
+
 }
