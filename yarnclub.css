@@ -85,5 +85,9 @@ span{
     border-left: 35vi solid transparent;
 	border-right: 0px solid transparent;
 	border-bottom: 100px solid #555;
+}
 
+.content-1{
+    text-align: center;
+    transform: translateX(-50%);
 }
