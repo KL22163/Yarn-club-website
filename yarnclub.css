@@ -39,7 +39,7 @@ body{
 
 .BHS-logo{
     position: relative;
-    height: 7vi;
+    height: 9vi;
 }
 
 .date-text{
@@ -48,27 +48,31 @@ body{
     color: rgb(0, 56, 78);
     font-weight: bold;
     top: 25vi;
-    left: 65vi;
+    right: 1.7vi;
     font-size: 1.75vw;
 }
 
 .description{
+    display: block;
+    margin-top: 2vi;
+    margin-bottom: 2vi;
     font-size: 1.5vw;
     color: rgb(0, 56, 78);
     background-color: rgb(230, 255, 250);
 }
 
 span{
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: bold;
     color: rgb(5, 30, 51);
 }
 
-span-2{
-    font-size: 1.3vw;
+.contact-title{
+    font-size: 1.8vw;
     font-weight: bold;
     color: rgb(255,255,255);
-    padding-bottom: 100vi;
+    margin-top: 2vi;
+    display: block;
 }
 
 .text-description{
@@ -77,47 +81,43 @@ span-2{
 }
 
 .extra-information{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    margin: 0;
+    font-size: 1.2vw;
+    background-color: white;
+    display: block;
+    margin-top: 2vi;
+    margin-bottom: 2vi;
 }
 
-.triangle-1{
-    width: 0;
-    height: 0;
+.list{
+    list-style-type: none;
+    padding: 0;
+    left: 400vi;
+}
+
+.list li{
     position: relative;
-    margin-top: 10vi;
-    border-left: 0vi solid transparent;
-	border-right: 35vi solid transparent;
-	border-top: 10vi solid #555;
+    padding-left: 2vw;
 }
 
-.content-1{
-    text-align: center;
-
-}
-
-.triangle-2{
-    width: 0;
-    height: 0;
-    position: relative;
-    margin-top: 10vi;
-    border-left: 35vi solid transparent;
-	border-right: 0vi solid transparent;
-	border-bottom: 10vi solid #555;
-}
-
-.content-2{
-    text-align: center;
+.list li::before{
+    content: '★';
+    position: absolute;
+    left: 4vw;
+    color: rgb(0,58,44);
 }
 
 .contact-info{
-    font-size: 0.5vw;
+    font-size: 1.2vw;
     color: rgb(255,255,255);
     background-color: rgb(0,58,44);
     padding-left: 3.5vi;
     padding-top: 0.5vi;
     padding-bottom: 0.5vi;
+}
+
+.contact-container{
+    display: flex;
+    gap: 2vw;
+    margin-bottom: 2.3vi;
+    margin-top: 0.5vi;
 }
