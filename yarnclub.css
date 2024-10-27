@@ -2,11 +2,11 @@
 
 body{
     font-family: 'Public sans';
-    background-color: rgb(230, 255, 250);
+    background-color: rgba(0, 78, 66);
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(10, 68, 55, 0.25), rgba(255, 255, 255, 0.2)), url("./Images/Hero_image.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)), url("./Images/Hero_image.jpg");
     position: relative;
     height: 35vi;
     width: 100%;
@@ -16,7 +16,7 @@ body{
 }
 
 .hero-text{
-    color: rgb(5, 30, 51);
+    color: rgb(0, 56, 78);
     position: absolute;
     text-align: center;
     top: 1vi;
@@ -25,12 +25,12 @@ body{
 }
 
 .sub-text{
-    color: rgb(5, 30, 51);
+    color: rgb(0, 56, 78);
     position: absolute;
     text-align: center;
-    top: 16.5vi;
+    top: 17vi;
     width: 100%;
-    font-size: 3vw;
+    font-size: 3.25vw;
 }
 
 .header{
@@ -56,23 +56,15 @@ body{
     display: block;
     margin-top: 2vi;
     margin-bottom: 2vi;
-    font-size: 1.5vw;
-    color: rgb(0, 56, 78);
-    background-color: rgb(230, 255, 250);
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
 }
 
 span{
-    font-size: 1.5vw;
+    font-size: 2.7vw;
     font-weight: bold;
-    color: rgb(5, 30, 51);
-}
-
-.contact-title{
-    font-size: 1.8vw;
-    font-weight: bold;
-    color: rgb(255,255,255);
-    margin-top: 2vi;
-    display: block;
+    text-align: left;
 }
 
 .text-description{
@@ -81,43 +73,57 @@ span{
 }
 
 .extra-information{
-    font-size: 1.2vw;
     background-color: white;
-    display: block;
-    margin-top: 2vi;
-    margin-bottom: 2vi;
+    padding-top: 1vi;
+    padding-bottom: 1vi;
 }
 
+.list-title{
+    display: block;
+    padding-left: 3.5vw;
+    color: rgb(0, 78, 66);
+    font-size: 2.7vi;
+    font-weight: bold;
+}
 .list{
     list-style-type: none;
     padding: 0;
-    left: 400vi;
 }
 
 .list li{
     position: relative;
-    padding-left: 2vw;
+    padding-left: 6vw;
+    padding-bottom: 0.75vi;
+    color: rgb(0, 78, 66);
+    font-size: 2.5vi;
 }
 
 .list li::before{
     content: '★';
     position: absolute;
-    left: 4vw;
+    left: 3.5vw;
     color: rgb(0,58,44);
 }
 
-.contact-info{
-    font-size: 1.2vw;
+.footer-info{
+    font-size: 2.2vw;
     color: rgb(255,255,255);
     background-color: rgb(0,58,44);
-    padding-left: 3.5vi;
-    padding-top: 0.5vi;
-    padding-bottom: 0.5vi;
+    padding: 4vi;
+    padding-left: 7vw;
+}
+
+.footer-title{
+    font-size: 2.8vw;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    display: block;
+    margin-bottom: 0.75vi;
 }
 
 .contact-container{
     display: flex;
-    gap: 2vw;
+    gap: 5vi;
     margin-bottom: 2.3vi;
     margin-top: 0.5vi;
 }
